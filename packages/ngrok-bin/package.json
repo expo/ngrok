@@ -1,21 +1,22 @@
 {
   "name": "@expo/ngrok-bin",
   "description": "ngrok binary package",
-  "version": "2.2.8-beta.3",
+  "version": "2.3.40",
   "repository": "expo/ngrok",
   "bin": {
     "ngrok": "bin/ngrok.js"
   },
   "optionalDependencies": {
-    "@expo/ngrok-bin-darwin-x64": "2.2.8",
-    "@expo/ngrok-bin-freebsd-ia32": "2.2.8",
-    "@expo/ngrok-bin-freebsd-x64": "2.2.8",
-    "@expo/ngrok-bin-linux-arm": "2.2.8",
-    "@expo/ngrok-bin-linux-arm64": "2.2.8",
-    "@expo/ngrok-bin-linux-ia32": "2.2.8",
-    "@expo/ngrok-bin-linux-x64": "2.2.8",
-    "@expo/ngrok-bin-sunos-x64": "2.2.8",
-    "@expo/ngrok-bin-win32-ia32": "2.2.8-beta.1",
-    "@expo/ngrok-bin-win32-x64": "2.2.8-beta.1"
+    "@expo/ngrok-bin-darwin-x64": "2.3.40",
+    "@expo/ngrok-bin-freebsd-ia32": "2.3.40",
+    "@expo/ngrok-bin-freebsd-x64": "2.3.40",
+    "@expo/ngrok-bin-linux-arm": "2.3.40",
+    "@expo/ngrok-bin-linux-arm64": "2.3.40",
+    "@expo/ngrok-bin-linux-ia32": "2.3.40",
+    "@expo/ngrok-bin-linux-x64": "2.3.40",
+    "@expo/ngrok-bin-sunos-x64": "2.3.40",
+    "@expo/ngrok-bin-win32-ia32": "2.3.40",
+    "@expo/ngrok-bin-win32-x64": "2.3.40",
+    "@expo/ngrok-bin-darwin-arm64": "2.3.40"
   }
 }
