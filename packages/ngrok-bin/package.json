@@ -7,7 +7,6 @@
     "ngrok": "bin/ngrok.js"
   },
   "optionalDependencies": {
-    "@expo/ngrok-bin-darwin-ia32": "2.2.8",
     "@expo/ngrok-bin-darwin-x64": "2.2.8",
     "@expo/ngrok-bin-freebsd-ia32": "2.2.8",
     "@expo/ngrok-bin-freebsd-x64": "2.2.8",
