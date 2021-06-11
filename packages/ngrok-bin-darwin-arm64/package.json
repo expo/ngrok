@@ -1,0 +1,12 @@
+{
+  "name": "@expo/ngrok-bin-darwin-arm64",
+  "description": "ngrok binary for darwin-arm64",
+  "repository": "expo/ngrok",
+  "os": [
+    "darwin"
+  ],
+  "cpu": [
+    "arm64"
+  ],
+  "version": "2.3.40"
+}

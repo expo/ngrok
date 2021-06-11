@@ -1,4 +1,4 @@
-darwin-ia32
+darwin-arm64
 darwin-x64
 freebsd-ia32
 freebsd-x64

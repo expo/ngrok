@@ -160,9 +160,11 @@ function _runTunnel(opts, cb) {
 				if (err) {
 					return cb(err);
 				}
-				var notReady = resp.statusCode === 500 && /panic/.test(body) ||
-					resp.statusCode === 502 && body.details &&
-						body.details.err === 'tunnel session not ready yet';
+                                var notReady = (resp.statusCode === 500 && /panic/.test(body)) ||
+					(resp.statusCode === 502 && body.details &&
+						body.details.err === 'tunnel session not ready yet') ||
+					(resp.statusCode === 503 && body.details &&
+						body.details.err === 'a successful ngrok tunnel session has not yet been established');
 
 				if (notReady) {
 					return retries-- ?
