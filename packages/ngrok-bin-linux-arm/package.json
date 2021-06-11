@@ -1,7 +1,11 @@
 {
   "name": "@expo/ngrok-bin-linux-arm",
   "description": "ngrok binary for linux-arm",
-  "repository": "expo/ngrok",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/expo/ngrok.git",
+    "directory": "packages/ngrok-bin-linux-arm"
+  },
   "os": [
     "linux"
   ],

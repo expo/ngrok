@@ -31,7 +31,11 @@ for (let platform of platforms) {
     pkg = {
       name,
       description: `ngrok binary for ${platform}`,
-      repository: "expo/ngrok",
+      repository: {
+        type: "git",
+        url: "https://github.com/expo/ngrok.git",
+        directory: `packages/${name}`,
+      },
       os: [os],
       cpu: [arch],
     };

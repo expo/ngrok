@@ -1,7 +1,11 @@
 {
   "name": "@expo/ngrok-bin-sunos-x64",
   "description": "ngrok binary for sunos-x64",
-  "repository": "expo/ngrok",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/expo/ngrok.git",
+    "directory": "packages/ngrok-bin-sunos-x64"
+  },
   "os": [
     "sunos"
   ],

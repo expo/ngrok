@@ -1,7 +1,11 @@
 {
   "name": "@expo/ngrok-bin-win32-ia32",
   "description": "ngrok binary for win32-ia32",
-  "repository": "expo/ngrok",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/expo/ngrok.git",
+    "directory": "packages/ngrok-bin-win32-ia32"
+  },
   "os": [
     "win32"
   ],

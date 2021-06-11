@@ -2,7 +2,11 @@
   "name": "@expo/ngrok-bin",
   "description": "ngrok binary package",
   "version": "2.3.40",
-  "repository": "expo/ngrok",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/expo/ngrok.git",
+    "directory": "packages/ngrok-bin"
+  },
   "bin": {
     "ngrok": "bin/ngrok.js"
   },

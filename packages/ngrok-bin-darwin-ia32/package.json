@@ -1,7 +1,11 @@
 {
   "name": "@expo/ngrok-bin-darwin-ia32",
   "description": "ngrok binary for darwin-ia32",
-  "repository": "expo/ngrok",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/expo/ngrok.git",
+    "directory": "packages/ngrok-bin-darwin-ia32"
+  },
   "os": [
     "darwin"
   ],
